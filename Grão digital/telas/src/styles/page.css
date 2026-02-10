@@ -1,0 +1,56 @@
+main {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 144px;
+  font-family: Urbanist;
+  font-weight: 200;
+  word-wrap: break-word;
+  justify-items: center;
+  text-align: center;
+  padding-top: 245px;
+}
+
+.botoes-page {
+  display: flex;
+  gap: 31px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.botao {
+  width: 297px;
+  height: 100.5px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-family: Urbanist;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.botao-cadastrar {
+  background-color: #4caf50;
+}
+
+
+
+.botao-entrar {
+  background-color: transparent;
+  border: 1.5px solid white;
+  outline: 1.5px white solid;
+  outline-offset: -1.5px;
+}
+
+
+.fundo-folha {
+     margin-top: 354px;
+     width: 100%;
+     margin-bottom: 70px;
+}

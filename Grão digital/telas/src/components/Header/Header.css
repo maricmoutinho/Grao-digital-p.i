@@ -1,0 +1,35 @@
+header {
+  border-bottom: 0.5px solid #fff;
+  width: 100vw;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.logo-header {
+  width: 216.5px;
+  height: 72.5px;
+  padding-left: 45px;
+}
+
+.botoes-header {
+  gap: 45.5px;
+  display: flex;
+  color: #fff;
+  font-family: Urbanist;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 85.289%; /* 25.587px */
+  text-transform: capitalize;
+  padding-right: 45px;
+  cursor: pointer;
+}

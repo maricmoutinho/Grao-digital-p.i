@@ -1,0 +1,26 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+html,
+body {
+  margin: 0;
+  overflow-x: hidden;
+  height: 100%;
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+body {
+  color: white;
+  background: var(--background);
+  font-family: var(--font-urbanist), sans-serif;
+  background-image: url(/images/fundo-imagem.png);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+

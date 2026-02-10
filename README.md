@@ -25,18 +25,3 @@ O desenvolvimento foi focado em boas práticas de front-end, organização de c�
 - CSS3  
 - Node.js  
 
-▶️ Como executar o projeto
-
-1. Clone o repositório:
-   
-bash
-git clone https://github.com/seu-usuario/grao-digital.git
-Instale as dependências:
-
-npm install
-Execute o projeto:
-
-npm run dev
-Acesse no navegador:
-
-http://localhost:3000
